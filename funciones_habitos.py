@@ -1,30 +1,27 @@
 # repo-colaborativo-reflexlab
 
-# ------------------------- MATILDE -------------------------------------
 
+# --------------------------MIRANDA-----------------------------------------
 
+def registrar_habitos():
+    """
+    registra los habitos diarios de una persona
+    Parameters
+    ---------
+    
+    return
+    --------
+    lista
+    Una lista con las actividades diarias de el usuario
+    """
+    lista_habitos=[]
+    actividad=int(input("ingrese la activdad que usted realizo hoy en el dia, para temrinar ingrese stop: "))
+    while actividad=="stop":
+        break
+    lista_habitos.append(actividad)
+    return(lista_habitos)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# --------------------------MATILDE-----------------------------------------
+#-----------------------MATILDE--------------------------------------------
 
 def analizar_habitos(lista):
     """
@@ -47,7 +44,5 @@ def analizar_habitos(lista):
             
         else:
             diccionario[i]+=1
+    return diccionario
     
-    return diccionario 
-    
-
